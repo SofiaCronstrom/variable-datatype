@@ -29,3 +29,38 @@ let myName = "Sofia";
 console.log(myName);
 myName = "Johnny";
 console.log(myName)
+
+////Example 5
+/*
+A boolean can be used for example if you want to check if an event has happend or not, has happend, true, has not, false
+*/
+
+//// Example 6
+/*
+ You should use const if you know that a value will not change because then none can change the value further down the line either, you can't change the value of a const variable.
+ */
+
+////Example 7
+const number1 = 47;
+const number2 = 273;
+
+let result = number1 + number2;
+console.log(result);
+
+////Example 8
+let result1 = number1 - number2;
+console.log(result1);
+
+let result2 = number1 * number2;
+console.log(result2);
+
+let result3 = number1 / number2;
+console.log(result3);
+
+//// Exercise 9
+let a = 35;
+a += 5;
+console.log(a);
+
+//// Exercise 10
+//Value of a is 9
